@@ -92,7 +92,7 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator
       <motion.div
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
@@ -101,7 +101,7 @@ const Hero = () => {
         <div className="w-5 h-9 border border-muted-foreground/30 rounded-full flex justify-center pt-2">
           <div className="w-1 h-2.5 bg-primary rounded-full" />
         </div>
-      </motion.div>
+      </motion.div> */}
     </section>
   );
 };
