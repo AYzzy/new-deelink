@@ -70,13 +70,15 @@ const Hero = () => {
                 Start a Project <ArrowRight className="w-5 h-5" />
               </Button>
             </Link>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-border/50 text-foreground hover:bg-muted/50 px-10 py-7 text-base gap-3 rounded-full backdrop-blur-sm"
-            >
-              <Play className="w-5 h-5 fill-primary text-primary" /> Watch Showreel
-            </Button>
+            <a href="https://www.instagram.com/p/DV8OYP3CKvE/" target="_blank" rel="noopener noreferrer">
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-border/50 text-foreground hover:bg-muted/50 px-10 py-7 text-base gap-3 rounded-full backdrop-blur-sm"
+              >
+                <Play className="w-5 h-5 fill-primary text-primary" /> Watch Showreel
+              </Button>
+            </a>
           </motion.div>
         </div>
 
@@ -92,16 +94,6 @@ const Hero = () => {
         </motion.div>
       </div>
 
-      {/* Scroll indicator
-      <motion.div
-        animate={{ y: [0, 10, 0] }}
-        transition={{ repeat: Infinity, duration: 2 }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10"
-      >
-        <div className="w-5 h-9 border border-muted-foreground/30 rounded-full flex justify-center pt-2">
-          <div className="w-1 h-2.5 bg-primary rounded-full" />
-        </div>
-      </motion.div> */}
     </section>
   );
 };
