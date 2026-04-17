@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import heroBg from "@/assets/hero-camera.jpg";
+import { Label } from "recharts";
 
 const CTA = () => {
   return (
@@ -57,10 +58,11 @@ const CTA = () => {
             <h3 className="text-foreground text-xl md:text-2xl font-bold mb-6">Social quick links</h3>
             <ul className="space-y-4">
               {[
-                { label: "01 / Facebook", href: "#" },
-                { label: "02 / Instagram", href: "#" },
+                { label: "01 / Facebook", href: "" },
+                { label: "02 / Instagram", href: "https://www.instagram.com/deelinkmedia/" },
                 { label: "03 / X (Twitter)", href: "#" },
-                { label: "04 / LinkedIn", href: "#" },
+                { label: "04 / LinkedIn", href: "https://www.linkedin.com/in/deelinkconnect/" },
+                { label: "05 / YouTube", href: "https://youtube.com/@deelinkconnect?si=18_2u4S2kx-hUYRe" }
               ].map((item) => (
                 <li key={item.label}>
                   <a
